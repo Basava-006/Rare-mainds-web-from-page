@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trainer Management</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Trainer Dashboard -->
+        <div class="trainer-dashboard">
+            <h2>Trainer Dashboard</h2>
+            <button id="addTrainerButton">Add Trainer</button>
+            <table id="trainerTable">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Expertise</th>
+                        <th>Availability</th>
+                        <th>Contact</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Trainers will be dynamically added here -->
+                </tbody>
+            </table>
+        </div>
+
+        <!-- Opportunities Section -->
+        <div class="opportunities-section">
+            <h2>Training Opportunities</h2>
+            <select id="filterType">
+                <option value="all">All Types</option>
+                <option value="Technical">Technical</option>
+                <option value="Soft Skills">Soft Skills</option>
+                <option value="Leadership">Leadership</option>
+            </select>
+            <button id="applyFilter">Filter</button>
+            <ul id="opportunitiesList">
+                <!-- Opportunities will be dynamically added here -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+button:hover {
+    background-color: #0056b3;
+}
+#trainerTable, #trainerTable th, #trainerTable td {
+    width: 100%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+#trainerTable th {
+    background-color: #007BFF;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li button {
+    background-color: #28a745;
+    margin: 0;
+}
+li button:hover {
+    background-color: #218838;
+}
